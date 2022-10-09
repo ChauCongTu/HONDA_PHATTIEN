@@ -130,3 +130,22 @@ INSERT INTO CTHDNHAP (SOHDNHAP, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP01000
 INSERT INTO HOADONXUAT VALUES('HD47X0100', 'NV51N001', 'KHA0410K002', '2022/05/10');
 --Thêm dữ liệu chi tiết hóa đơn xuất
 INSERT INTO CTHDXUAT(SOHDXUAT, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010001');
+-- SP thêm xe
+exec sp_themXe 'SP012CT004',
+				'TENSP',
+				'54900000',
+				'CNH0909H001',
+				'CHIẾC',
+				'SP03CT198',
+				'1H7AF9SN6D0110613',
+				'12',
+				'12',
+				'DC',
+				'12',
+				'PT',
+				'TSN',
+				'CSM',
+				'DTN',
+				'TD',
+				'HTKD',
+				'PKL001'
