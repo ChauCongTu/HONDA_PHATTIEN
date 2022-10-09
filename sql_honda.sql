@@ -108,3 +108,26 @@ CREATE TABLE PHUTUNG(
 	MASP  NVARCHAR(20) NOT NULL,
     FOREIGN KEY (MASP) REFERENCES SANPHAM(MASP)
 );
+
+-- Thêm dữ liệu Khách hàng
+INSERT INTO KHACHHANG VALUES('KHA0410K002', N'Châu Quế Nhơn', N'An Nhơn - Bình Định', '0848611127', '541272158');
+-- Thêm dữ liệu chi nhánh
+INSERT INTO CHINHANH VALUES('CNH0909H001', N'HEAD Phát Tiến - Bến Lức', N'17 Nơ Trang Long, P.7 , Q.Bình Thạnh', '0283803071');
+-- Thêm dữ liệu nhân viên
+INSERT INTO NHANVIEN VALUES('NV51N001', N'Ê Linh Hà Lan', 'Haaland09', 'HL01234', '2000/10/04', '782678192', 'Manchester - England', '3', '0123987654', 'CNH0909H001');
+-- Thêm dữ liệu sản phẩm
+INSERT INTO SANPHAM VALUES('SP010001', N'CBR150R - Đen xám', '123990000', 'CNH0909H001', N'CHIẾC');
+-- Thêm sữ liệu loại xe
+INSERT INTO LOAIXE VALUES('PKL001', N'Xe côn tay');
+--Thêm dữ liệu xe
+INSERT INTO XE VALUES('SP00CT001', '1H7AF9SX6D0100613', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010001', 'PKL001');
+--Thêm dữ liệu nhà cung cấp
+INSERT INTO NHACUNGCAP VALUES('HONDA1382', N'Honda Việt Nam', N'Phường Phúc Thắng, Thị xã Phúc Yên, Vĩnh Phúc', '0964807188', 'tonvinhgiatrithuc@gmail.com');
+--Thêm dữ liệu hóa đơn nhập
+INSERT INTO HOADONNHAP VALUES('HD47X0100', 'NV51N001', 'HONDA1382', '2022/02/10');
+--Thêm dữ liệu chi tiết hóa đơn nhập
+INSERT INTO CTHDNHAP (SOHDNHAP, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010001');
+--Thêm dữ liệu hóa đơn xuất
+INSERT INTO HOADONXUAT VALUES('HD47X0100', 'NV51N001', 'KHA0410K002', '2022/05/10');
+--Thêm dữ liệu chi tiết hóa đơn xuất
+INSERT INTO CTHDXUAT(SOHDXUAT, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010001');
