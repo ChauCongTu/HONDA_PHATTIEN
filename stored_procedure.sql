@@ -1,21 +1,25 @@
--- sp Thêm xe
-exec sp_themXe 'Mã sản phẩm',
-				'TENSP',
-				'giá',
-				'mã chi nhánh',
-				'đơn vị',
-				'mã xe',
-				'số khung',
-				'khối lượng',
-				'dung tích bx',
-				'động cơ',
-				'dung tích xl',
-				'PT',
-				'TSN',
-				'CSM',
-				'DTN',
-				'TD',
-				'HTKD',
-				'mã loại xe'
--- sp xem danh sách xe tại chi nhánh
-exec sp_xemXeTheoChiNhanh 'Mã chi nhánh'
+-- sp thêm nhân viên mới
+CREATE PROC sp_themNhanVien(@MANV NVARCHAR(20),
+							@HOTEN NVARCHAR(50),
+							@TENDANGNHAP NVARCHAR(20),
+							@MATKHAU CHAR(32),
+							@NGSINH DATE,
+							@SOCMND INT,
+							@DIACHI NVARCHAR(500),
+							@QUYEN INT,
+							@SDT CHAR(11) ,
+							@MACN NVARCHAR(20))
+AS
+	IF(EXISTS(SELECT * FROM NHANVIEN WHERE MANV = @MANV))
+	BEGIN
+	PRINT N'MÃ NGƯỜI DÙNG ĐÃ TỒN TẠI'
+	END
+	ELSE IF(NOT EXISTS(SELECT * FROM CHINHANH WHERE MACN = @MACN))
+	BEGIN
+	PRINT N'KHÔNG TÌM THẤY CHI NHÁNH CÓ MÃ: '+ @MACN
+	END
+	ELSE
+	BEGIN
+	INSERT INTO NHANVIEN VALUES(@MANV, @HOTEN, @TENDANGNHAP, @MATKHAU, @NGSINH, @SOCMND, @DIACHI, @QUYEN, @SDT, @MACN)
+	END
+-- 
