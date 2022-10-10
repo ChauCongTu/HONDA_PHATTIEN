@@ -129,16 +129,16 @@ INSERT INTO CHINHANH VALUES('CNH0909H005', N'HEAD Phát Tiến - Hàng Xanh', N'
 INSERT INTO CHINHANH VALUES('CNH0909H006', N'HEAD Phát Tiến - Tân An', N'138 QL62, Phường 2, Tp. Tân An, Long An', '02723647111');
 
 -- Thêm dữ liệu nhân viên
-INSERT INTO NHANVIEN VALUES('NV51N001', N'Ê Linh Hà Lan', 'Haaland09', 'HL01234', '2000/10/04', '782678192', 'Manchester - England', '3', '0123987654', 'CNH0909H001');
-INSERT INTO NHANVIEN VALUES('NV51N002', N'Nguyễn Thị Bảnh', 'Banh123', 'p4ssw0rd', '2005/12/03', '782678131', N'Nghệ An', '3', '0123987623', 'CNH0909H001');
-INSERT INTO NHANVIEN VALUES('NV51N003', N'Nguyễn Thị Tỏn', 'Ton123', 'p4ssw0rd', '2001/03/08', '782678233', N'Đồng Tháp', '2', '0123987455', 'CNH0909H002');
-INSERT INTO NHANVIEN VALUES('NV51N004', N'Nguyễn Thị Nụ', 'Nu147', 'p4ssw0rd', '1998/10/24', '782678785', N'Cà Mau', '1', '0123987899', 'CNH0909H003');
-INSERT INTO NHANVIEN VALUES('NV51N005', N'Lê Dương Bảo Lâm', 'Lamdeptrai', 'p4ssw0rd', '1995/09/02', '782678099', N'Lâm Đồng', '2', '0123987144', 'CNH0909H003');
-INSERT INTO NHANVIEN VALUES('NV51N006', N'Trấn Thành', 'Thanhmc', 'p4ssw0rd', '1989/08/23', '782678023', N'Hồ Chí Minh', '1', '0123987175', 'CNH0909H004');
-INSERT INTO NHANVIEN VALUES('NV51N007', N'Lâm Đình Khoa', 'KhoaManDo', 'p4ssw0rd', '1996/06/01', '782678322', N'Đồng Tháp', '3', '0123987999', 'CNH0909H005');
-INSERT INTO NHANVIEN VALUES('NV51N008', N'Nguyễn Hữu Nam', 'Huunam', 'p4ssw0rd', '1992/12/03', '782678112', N'Bạc Liêu', '2', '0123987333', 'CNH0909H005');
-INSERT INTO NHANVIEN VALUES('NV51N009', N'Trần Thị Hết', 'Het123', 'p4ssw0rd', '1989/12/31', '782678100', N'Sóc Trăng', '1', '0123987222', 'CNH0909H006');
-INSERT INTO NHANVIEN VALUES('NV51N010', N'Trần Văn Riêng', 'Reng990', 'p4ssw0rd', '1992/10/03', '782678000', N'Gia Lai', '2', '0123987123', 'CNH0909H006');
+INSERT INTO NHANVIEN VALUES('NV51N001', N'Ê Linh Hà Lan', 'Haaland09', 'E10ADC3949BA59ABBE56E057F20F883E', '2000/10/04', '782678192', 'Manchester - England', '3', '0123987654', 'CNH0909H001');
+INSERT INTO NHANVIEN VALUES('NV51N002', N'Nguyễn Thị Bảnh', 'Banh123', 'E10ADC3949BA59ABBE56E057F20F883E', '2005/12/03', '782678131', N'Nghệ An', '3', '0123987623', 'CNH0909H001');
+INSERT INTO NHANVIEN VALUES('NV51N003', N'Nguyễn Thị Tỏn', 'Ton123', 'E10ADC3949BA59ABBE56E057F20F883E', '2001/03/08', '782678233', N'Đồng Tháp', '2', '0123987455', 'CNH0909H002');
+INSERT INTO NHANVIEN VALUES('NV51N004', N'Nguyễn Thị Nụ', 'Nu147', 'E10ADC3949BA59ABBE56E057F20F883E', '1998/10/24', '782678785', N'Cà Mau', '1', '0123987899', 'CNH0909H003');
+INSERT INTO NHANVIEN VALUES('NV51N005', N'Lê Dương Bảo Lâm', 'Lamdeptrai', 'E10ADC3949BA59ABBE56E057F20F883E', '1995/09/02', '782678099', N'Lâm Đồng', '2', '0123987144', 'CNH0909H003');
+INSERT INTO NHANVIEN VALUES('NV51N006', N'Trấn Thành', 'Thanhmc', 'E10ADC3949BA59ABBE56E057F20F883E', '1989/08/23', '782678023', N'Hồ Chí Minh', '1', '0123987175', 'CNH0909H004');
+INSERT INTO NHANVIEN VALUES('NV51N007', N'Lâm Đình Khoa', 'KhoaManDo', 'E10ADC3949BA59ABBE56E057F20F883E', '1996/06/01', '782678322', N'Đồng Tháp', '3', '0123987999', 'CNH0909H005');
+INSERT INTO NHANVIEN VALUES('NV51N008', N'Nguyễn Hữu Nam', 'Huunam', 'E10ADC3949BA59ABBE56E057F20F883E', '1992/12/03', '782678112', N'Bạc Liêu', '2', '0123987333', 'CNH0909H005');
+INSERT INTO NHANVIEN VALUES('NV51N009', N'Trần Thị Hết', 'Het123', 'E10ADC3949BA59ABBE56E057F20F883E', '1989/12/31', '782678100', N'Sóc Trăng', '1', '0123987222', 'CNH0909H006');
+INSERT INTO NHANVIEN VALUES('NV51N010', N'Trần Văn Riêng', 'Reng990', 'E10ADC3949BA59ABBE56E057F20F883E', '1992/10/03', '782678000', N'Gia Lai', '2', '0123987123', 'CNH0909H006');
 
 -- Thêm dữ liệu sản phẩm
 INSERT INTO SANPHAM VALUES('SP010001', N'CBR150R - Đen xám', '123990000', 'CNH0909H001', N'CHIẾC');
@@ -148,31 +148,35 @@ INSERT INTO SANPHAM VALUES('SP010004', N'CBR1000R - Trắng', '785640000', 'CNH0
 INSERT INTO SANPHAM VALUES('SP010005', N'CBR1000RR - Đen', '1005760000', 'CNH0909H004', N'CHIẾC');
 INSERT INTO SANPHAM VALUES('SP010006', N'CBR600R - Đỏ xanh', '2348570000', 'CNH0909H004', N'CHIẾC');
 INSERT INTO SANPHAM VALUES('SP010007', N'CBR150R - Xanh đỏ', '123990000', 'CNH0909H005', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010008', N'CBR150R - Trắng đen', '123990000', 'CNH0909H005', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010009', N'CBR150R - Đen trắng', '123990000', 'CNH0909H006', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010010', N'CBR150R - Đỏ đen', '123990000', 'CNH0909H006', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010011', N'CBR150R - Xanh đen', '123990000', 'CNH0909H005', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010012', N'CBR150R - Trắng xanh', '123990000', 'CNH0909H001', N'CHIẾC');
-INSERT INTO SANPHAM VALUES('SP010013', N'CBR150R - Đen xanh', '123990000', 'CNH0909H003', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010008', N'Wave Alpha - Trắng đen', '17790000', 'CNH0909H005', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010009', N'DREAM Thái - Đen trắng', '19000000', 'CNH0909H006', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010010', N'AIR BLADE - Đỏ đen', '45000000', 'CNH0909H006', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010011', N'AIR BLADE - Xanh đen', '45000000', 'CNH0909H005', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010012', N'SH MODE - Trắng xanh', '67000000', 'CNH0909H001', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010013', N'SH 150i- Trắng', '105000000', 'CNH0909H003', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('SP010014', N'SH 150i- Đen', '105000000', 'CNH0909H005', N'CHIẾC');
+INSERT INTO SANPHAM VALUES('PT010001', N'Tấm lọc gió', '64000', 'CNH0909H003' , N'Tấm');
+INSERT INTO SANPHAM VALUES('PT010002', N'Bugi', '57200', 'CNH0909H003' , N'Cái');
+INSERT INTO SANPHAM VALUES('PT010003', N'Bộ má phanh', '66000', 'CNH0909H005' , N'Bộ');
+INSERT INTO SANPHAM VALUES('PT010004', N'Bộ má phanh dầu', '132000', 'CNH0909H001' , N'Bộ');
+INSERT INTO SANPHAM VALUES('PT010005', N'Lốp xe', '290000', 'CNH0909H005' , N'Cái')
 
 -- Thêm sữ liệu loại xe
 INSERT INTO LOAIXE VALUES('PKL001', N'Xe côn tay');
 INSERT INTO LOAIXE VALUES('PKL002', N'Xe số');
 INSERT INTO LOAIXE VALUES('PKL003', N'Xe tay ga');
-INSERT INTO LOAIXE VALUES('PKL004', N'Xe đạp');
-INSERT INTO LOAIXE VALUES('PKL005', N'Xe máy');
 
 --Thêm dữ liệu xe
 INSERT INTO XE VALUES('SP00CT001', '1H7AF9SX6D0100613', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010001', 'PKL001');
-INSERT INTO XE VALUES('SP00CT002', '1H7AF9SX6D0100614', '145', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010002', 'PKL001');
-INSERT INTO XE VALUES('SP00CT003', '1H7AF9SX6D0100615', '120', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010003', 'PKL001');
-INSERT INTO XE VALUES('SP00CT004', '1H7AF9SX6D0100616', '119', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010004', 'PKL001');
-INSERT INTO XE VALUES('SP00CT005', '1H7AF9SX6D0100617', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010005', 'PKL001');
-INSERT INTO XE VALUES('SP00CT006', '1H7AF9SX6D0100618', '129', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010006', 'PKL001');
-INSERT INTO XE VALUES('SP00CT007', '1H7AF9SX6D0100619', '149', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010007', 'PKL001');
-INSERT INTO XE VALUES('SP00CT008', '1H7AF9SX6D0100620', '119', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010008', 'PKL001');
+INSERT INTO XE VALUES('SP00CT0010', '1H7AF9SX6D0100614', '111', '7.8', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, tay ga, làm mát bằng dung dịch', '125', '53,5 mm x 55,5 mm', '11,5:1', N'8,75kW/8.500 vòng/phút', N'0,9 lít khi thay nhớt. 1,1 lít khi rã máy', N'Đai', N'Điện', 'SP010010', 'PKL003');
+INSERT INTO XE VALUES('SP00CT0013', '1H7AF9SX6D0100615', '134', '7.8', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, tay ga, làm mát bằng dung dịch', '125', '57,3 mm x 57,8 mm', '11,5:1', N'9kW/8.500 vòng/phút', N'0,9 lít khi thay nhớt. 1,1 lít khi rã máy', N'Đai', N'Điện', 'SP010013', 'PKL003');
+INSERT INTO XE VALUES('SP00CT009', '1H7AF9SX6D0100616', '99', '3.7', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, số, làm mát bằng không khí', '110', '48,5 mm x 50,2 mm', '9,5:1', N'8,54kW/7.500 vòng/phút', N'0,7 lít khi thay nhớt. 0,9 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010009', 'PKL002');
+INSERT INTO XE VALUES('SP00CT008', '1H7AF9SX6D0100617', '97', '3.7', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, số, làm mát bằng khong khí', '110', '48,5 mm x 50,2 mm', '9,5:1', N'8,2kW/7.500 vòng/phút', N'0,7 lít khi thay nhớt. 0,9 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010008', 'PKL002');
+INSERT INTO XE VALUES('SP00CT006', '1H7AF9SX6D0100618', '319', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010006', 'PKL001');
+INSERT INTO XE VALUES('SP00CT007', '1H7AF9SX6D0100619', '319', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010007', 'PKL001');
+INSERT INTO XE VALUES('SP00CT005', '1H7AF9SX6D0100620', '319', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010008', 'PKL001');
 INSERT INTO XE VALUES('SP00CT009', '1H7AF9SX6D0100621', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010009', 'PKL001');
-INSERT INTO XE VALUES('SP00CT010', '1H7AF9SX6D0100622', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010010', 'PKL001');
+INSERT INTO XE VALUES('SP00CT011', '1H7AF9SX6D0100622', '139', '12', N'PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch', '149.2', '57,3 mm x 57,8 mm', '11,3:1', N'12,6kW/9.000 vòng/phút', N'1,1 lít khi thay nhớt. 1,3 lít khi rã máy', N'Cơ khí', N'Điện', 'SP010010', 'PKL001');
 
 
 --Thêm dữ liệu nhà cung cấp
@@ -221,7 +225,7 @@ INSERT INTO CTHDXUAT(SOHDXUAT, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010006
 INSERT INTO CTHDXUAT(SOHDXUAT, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010007');
 INSERT INTO CTHDXUAT(SOHDXUAT, SOLUONG, MASP) VALUES('HD47X0100', '1', 'SP010008');
 
--- SP thêm xe
+--Thêm dữ liệu phụ tùng
 exec sp_themXe 'SP012CT004',
 				'TENSP',
 				'54900000',
